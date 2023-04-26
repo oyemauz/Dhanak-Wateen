@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>item store</title>
+    <link rel="stylesheet" href="/MainHeader.css" />
+    <link rel="stylesheet" href="/itemStore.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="main_header">
+      <div class="main_navbar">
+        <div class="mateen_harware">
+          <span class="name">Mateen Hardware</span>
+        </div>
+        <div class="functional_items">
+          <a href="/generateInvoice.html">Generate Invoice</a>
+          <a
+            href="/itemstore.html"
+            style="background-color: #1f8231; border-radius: 0.6rem"
+            >Item Store</a
+          >
+          <a href="/salehistory.html">Sales History</a>
+          <a href="#">Phone Book</a>
+          <a href="#">Setting</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="Products_Details">
+      <div class="item_detail">
+        <p class="item_head">
+          Item Detail:
+          <span class="new" style="background-color: #1f8231">New</span>
+        </p>
+
+        <div class="adds_item">
+          <div class="total_items">
+            <div class="item">
+              <div><label for="" class="Label">Product name</label></div>
+              <input type="text" placeholder="Name" />
+            </div>
+
+            <div class="item">
+              <div><label for="" class="Label">Price</label></div>
+              <input type="number" placeholder="Price" />
+            </div>
+
+            <div class="item">
+              <div><label for="" class="Label">Retail Price</label></div>
+              <input type="number" placeholder="Retail Price" />
+            </div>
+
+            <div class="item">
+              <div><label for="" class="Label">Stock</label></div>
+              <input type="number" placeholder="Stock" />
+            </div>
+          </div>
+
+          <div class="submit_here">
+            <div class="item">
+              <div><label for="" class="Label">Distributer Name</label></div>
+              <input type="text" placeholder="Distributer" />
+            </div>
+            <div class="item">
+              <div><label for="" class="Label">Phone no</label></div>
+              <input type="text" placeholder="Distributer" />
+            </div>
+
+            <!-- <div class="for"> -->
+            <div class="item">
+              <div><label for="" class="Label">Adress</label></div>
+              <input type="text" placeholder="Distributer" />
+            </div>
+
+            <div class="add_item">
+              <input type="submit" style="margin-top: 1.5rem" />
+            </div>
+
+            <div class="reset_item">
+              <input type="reset" style="margin-top: 1.5rem" />
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+        <!-- <div class="main_sec_items"> -->
+        <div class="main_item_detail">
+          <div class="main_det">
+            <div class="m_item">#</div>
+            <div class="m_item">Name</div>
+            <div class="m_item">Price</div>
+            <div class="m_item">Retail Price</div>
+            <div class="m_item">Stock</div>
+            <div class="m_item">Discount Offer</div>
+            <div class="m_item">Distributer</div>
+            <div class="m_item">Edit/Delete</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="discount_detail">
+        <div class="discount_head">
+          <p class="discount_offer">
+            Discount Offers <span class="new">New</span>
+          </p>
+          <div class="select_items">
+            <label for="">Select item</label>
+            <input id="item_text" type="text" />
+            <input id="check_box" type="checkbox" />
+            <label class="select_item">select all items</label><br />
+
+            <label for="">Discount amount</label>
+            <input id="disc_amount" type="text" />
+            <button class="btn">Add Offer</button>
+            <span class="list_all_offer"><a href="#">List all Offer</a></span>
+          </div>
+
+          <div class="store_statisc m_item">
+            <span class="stat">Store Statistics</span>
+          </div>
+          <!-- <div class="Stock_alert m_item store_statisc">Stock Alert</div> -->
+        </div>
+      </div>
+    </section>
+
+    <footer class="itemStore_footer">
+      <div class="footer_btn">
+        <a href="#">Quit</a>
+      </div>
+    </footer>
+  </body>
+</html>

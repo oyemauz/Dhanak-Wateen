@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/MainHeader.css" />
+    <link rel="stylesheet" href="/itemStore.css" />
+    <script src="script.js" defer></script>
+    <title>Sales History</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main_header">
+      <div class="main_navbar">
+        <div class="mateen_harware">
+          <span class="name">Mateen Hardware</span>
+        </div>
+        <div class="functional_items">
+          <a href="/generateInvoice.html">Generate Invoice</a>
+          <a href="/itemstore.html">Item Store</a>
+          <a
+            href="/salehistory.html"
+            style="background-color: #1f8231; border-radius: 0.6rem"
+            >Sales History</a
+          >
+          <a href="#">Phone Book</a>
+          <a href="#">Setting</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="invoice_section">
+      <div class="invoice_no"></div>
+      <div class="cash_sale_invoice">
+        <h2 class="secondary_heading">Sales history</h2>
+        <span class="branch_no">Daily sale History</span>
+      </div>
+      <div class="Date">
+        <span class="Date_format">Date:</span>
+        <input
+          type="date"
+          name="input1"
+          placeholder="YYYY-MM-DD"
+          required
+          pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+          title="Enter a date in this formart YYYY-MM-DD"
+        />
+      </div>
+    </section>
+
+    <div class="invoice_list">
+      <div class="lists">
+        <div class="item_lists">
+          <span class="date">Date:31-12-2023</span>
+          <h2 class="secondary_heading">Invoice List</h2>
+          <input
+            type="search"
+            class="search"
+            name=""
+            id=""
+            placeholder="Search by invoice no..."
+          />
+        </div>
+        <section class="Total_History_details">
+          <div class="all_items_detail">
+            <div class="first_row_detail">
+              <div class="resource_person_detail">
+                <div class="invoice_num">invoice no-344567</div>
+                <div class="h_date">
+                  <label for="">Date:</label>
+                  <span class="h_inner_det">31-12-2023</span>
+                </div>
+                <div class="h_time">
+                  <label for="">Time:</label>
+                  <span class="h_inner_det">11:44 pm</span>
+                </div>
+                <div class="h_resource_person">
+                  <label for="">Resource Person:</label>
+                  <span class="h_inner_det">Malik Shurli</span>
+                </div>
+                <div class="h_customer_name">
+                  <label for="">Customer Name:</label>
+                  <span class="h_inner_det">Usama Bhatti</span>
+                </div>
+              </div>
+              <div class="edit_view_btn">
+                <div class="anchor_tag">
+                  <a id="first_tag" href="#">Edit</a>
+                  <a id="sec_tag" href="#">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="sec_row_detail">
+              <!-- <div class="first_row_detail"> -->
+              <div class="h_items_detail">
+                <div class="h_item">
+                  <label for="">item:</label>
+                  <span class="h_inner_det">10</span>
+                </div>
+                <div class="h_price">
+                  <label for="">Price:</label>
+                  <span class="h_inner_det">2400</span>
+                </div>
+                <div class="h_item">
+                  <label for="">Discount:</label>
+                  <span class="h_inner_det">200</span>
+                </div>
+                <div class="h_item">
+                  <label for="">Sales Discount:</label>
+                  <span class="h_inner_det">0</span>
+                </div>
+                <div class="h_item">
+                  <label for="">Total Price:</label>
+                  <span class="h_inner_det">2200</span>
+                </div>
+                <div class="h_item">
+                  <label for="">Payment Type:</label>
+                  <span class="h_inner_det">Cash</span>
+                </div>
+              </div>
+              <div class="edit_view_btn">
+                <div class="anchor_tag">
+                  <a id="third_tag" href="#">Delete</a>
+                </div>
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+        </section>
+
+        <div class="History_like_sec">
+          <div class="item_text">
+            <div class="new_item_text">
+              <div class="invoice_num">invoice no-344567</div>
+              <div class="curr_date">25</div>
+              <div class="curr_date">March</div>
+            </div>
+          </div>
+          <div class="btn_rectangle">
+            <div class="f_row">
+              <div class="edit_view_btn">
+                <div class="anchor_tag">
+                  <a id="first_tag" href="#">Edit</a>
+                  <a id="sec_tag" href="#">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="sec_row">
+              <div class="edit_view_btn">
+                <div class="anchor_tag">
+                  <a id="third_tag" href="#">Delete</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calender">
+        <div class="contianer">
+          <div class="calendar">
+            <div class="calendar-header">
+              <span class="month-picker" id="month-picker"> May </span>
+              <div class="year-picker" id="year-picker">
+                <span class="year-change" id="pre-year">
+                  <pre><</pre>
+                </span>
+                <span id="year">2020 </span>
+                <span class="year-change" id="next-year">
+                  <pre>></pre>
+                </span>
+              </div>
+            </div>
+
+            <div class="calendar-body">
+              <div class="calendar-week-days">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+              </div>
+              <div class="calendar-days"></div>
+            </div>
+            <div class="calendar-footer"></div>
+            <div class="date-time-formate">
+              <div class="day-text-formate">TODAY</div>
+              <div class="date-time-value">
+                <div class="time-formate">02:51:20</div>
+                <div class="date-formate">23 - july - 2022</div>
+              </div>
+            </div>
+            <div class="month-list"></div>
+          </div>
+        </div>
+        <div class="sales_information">
+          <div class="sales">
+            <div class="sales_info">Sales Information</div>
+            <div class="date">
+              <span>Date: 31-01-2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sales_History_footer"></div>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+input::placeholder {
+  color: #c8c8c8;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* History Like Sec in Sales History */
+
+#first_tag {
+  background-color: #ece7e7;
+  color: #666161;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#first_tag:hover {
+  background-color: rgba(102, 97, 97, 0.2);
+}
+
+#sec_tag {
+  background-color: #d0f2db;
+  color: #3ba55d;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#sec_tag:hover {
+  background-color: rgba(59, 165, 93, 0.3);
+}
+
+#third_tag {
+  background-color: #eac0c4;
+  color: #dc3545;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#third_tag:hover {
+  background-color: rgba(220, 53, 69, 0.2);
+}
+
+/* ****************************** */
+/* ********* Header Navbar ****** */
+/* ****************************** */
+
+.main_header {
+  background-color: #444546;
+}
+
+.main_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mateen_harware {
+  padding: 1.2rem 4.6rem;
+  background-color: #1f8231;
+}
+
+.name {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+/* Functional Items */
+
+.functional_items a {
+  padding: 0.3rem 0.7rem;
+  margin-right: 2.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.12rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* .functional_items a:nth-child(1) {
+    background-color: #1f8231;
+    border-radius: 0.6rem;
+    
+  } */
+
+.functional_items a:hover {
+  background-color: #1f8231;
+  border-radius: 0.6rem;
+}
+
+/* ****************************** */
+/* ********* Invoice Section **** */
+/* ****************************** */
+
+.invoice_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2.8rem;
+  border: 0.1rem solid rgba(153, 153, 153, 0.2);
+}
+
+.Date input {
+  height: 3.4rem;
+  border: none;
+}
+
+.branch_no {
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+  font-size: 1.2rem;
+  color: rgba(153, 153, 153, 0.7);
+}
+
+.Date_format {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+
+/* ****************************** */
+/* ********* Footer ************* */
+/* ****************************** */
+
+footer {
+  display: flex;
+  background-color: #444546;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 4.6rem;
+  /* margin-top: 1rem; */
+}
+
+.footer_btn a {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-left: 2.4rem;
+  padding: 0.3rem 2rem;
+  background-color: #dc3545;
+  border-radius: 0.4rem;
+}
+
+.footer_btn a:nth-child(1):hover {
+  background-color: #d31326;
+}
+
+.footer_btn a:nth-child(2) {
+  background-color: #707070;
+}
+
+.footer_btn a:nth-child(2):hover {
+  background-color: #4f4f4f;
+}
+
+.developedBy span {
+  color: rgba(119, 119, 119, 1);
+}
+
+.print_voice a {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-right: 2rem;
+  /* padding: 0.3rem 1.6rem; */
+  padding: 0.6rem;
+  background-color: #1f8231;
+  border-radius: 0.3rem;
+}
+
+.print_voice a:hover {
+  background-color: #0f5d1e;
+}
+
+/* **** Buttons *****  */
+
+.add_item input {
+  background-color: #1f8231;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0.6rem 1rem 0.6rem 0.5rem;
+}
+
+.add_item input:hover {
+  background-color: #0f5d1e;
+}
+
+.reset_item input {
+  padding: 0.7rem 1.3rem 0.7rem 0.7rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.reset_item input:hover {
+  background-color: #f0f0f0;
+}
