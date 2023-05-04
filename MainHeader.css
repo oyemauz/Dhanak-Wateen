@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  min-height: 100vh;
 }
 
 input::placeholder {
@@ -144,6 +145,8 @@ footer {
   justify-content: space-between;
   padding: 1.4rem 4.6rem;
   /* margin-top: 1rem; */
+  position: sticky;
+  top: 100%;
 }
 
 .footer_btn a {

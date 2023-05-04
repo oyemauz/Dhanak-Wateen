@@ -6,6 +6,10 @@ html {
   font-size: 10px;
 }
 
+body {
+  min-height: 100vh;
+}
+
 /* Products Details */
 
 .Products_Details {
@@ -635,4 +639,6 @@ label {
 .sales_History_footer {
   padding: 2.4rem 0;
   background-color: #444546;
+  position: sticky;
+  top: 100%;
 }
