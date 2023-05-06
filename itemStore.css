@@ -26,11 +26,10 @@ body {
 }
 
 .total_items {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background: #ffffff;
-  /* margin-top: 2rem; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
 .adds_item {
@@ -67,8 +66,7 @@ body {
 .submit_here {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 1rem;
+  justify-content: space-evenly;
 }
 
 /* ****************************** */
@@ -181,9 +179,9 @@ label {
   background-color: #444546;
   width: 175%;
   text-align: center;
-  margin-bottom: 37.3rem;
+  margin-bottom: 36rem;
 }
-
+/* ************************************************************************* */
 /* ****************************** */
 /* ********* Invoice List **** */
 /* ****************************** */
@@ -621,7 +619,7 @@ label {
   margin-top: 3rem;
   background-color: #444546;
   color: #fff;
-  margin-bottom: 15.8rem;
+  margin-bottom: 14rem;
 }
 
 .sales {

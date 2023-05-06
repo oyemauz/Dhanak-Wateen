@@ -1,0 +1,14 @@
+@media (max-width: 1380px) {
+  html {
+    font-size: 9px;
+  }
+  .store_statisc {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .total_items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
